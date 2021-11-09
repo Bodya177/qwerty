@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-    int i=4;
+    int i=5;
     float minX, maxX, h, x;
     double y;
     cin >> minX >> maxX >> h;
