@@ -7,18 +7,19 @@ using namespace std;
 
 int main()
 {
-    int i = 80;
+    int i=5;
     float minX, maxX, h, x;
     double y;
     cin >> minX >> maxX >> h;
     x = minX;
-    do
+    do 
     {
         y = (pow(x, 5) + 3 * tan(pow(x, 2) + 2));
         (x += h);
         cout << setw(10) << left << x << setw(4) << y << endl;
-
-    } while (x <= maxX + h / 2)
+       
+    }
+       while (x <= maxX + h / 2)
 
 
 
